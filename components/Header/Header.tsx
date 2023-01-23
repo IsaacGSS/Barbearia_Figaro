@@ -11,9 +11,9 @@ export const Header = () => {
     <header
       aria-checked={isActive}
       className='
-      max-md:aria-checked:-left-44 max-md:aria-checked:bg-transparent
-      absolute h-screen left-0 transition-all overflow-hidden p-2 flex flex-col bg-zinc-900 text-white opacity-90 z-50 
-      md:fixed md:h-auto md:w-full md:px-3 md:flex-row md:items-center md:justify-between md:text-center'
+      max-md:aria-checked:-left-44 max-md:aria-checked:bg-transparent 
+      fixed h-screen left-0 transition-all overflow-hidden p-2 flex flex-col bg-zinc-900 text-white opacity-90 z-50 
+      md:h-auto md:w-full md:px-3 md:flex-row md:items-center md:justify-between md:text-center'
     >
       <div className='px-2 flex gap-5 justify-between items-center'>
         <h1 className='text-xl font-bold'>Barbearia Figaro</h1>
