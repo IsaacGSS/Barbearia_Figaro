@@ -44,7 +44,7 @@ export const Header = () => {
         </ul>
       </div>
 
-      <div>
+      <div className='absolute py-2 px-1.5 bottom-0 right-0'>
         <User />
       </div>
     </header>
