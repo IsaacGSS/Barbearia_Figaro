@@ -6,6 +6,7 @@ export const User = () => {
         <UserCircleIcon className='h-9 w-9 p-1' />
       </span>
       <p>
+        seja Bem-Vindo
         {
           // Usuario
         }

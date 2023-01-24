@@ -44,8 +44,9 @@ export const Header = () => {
         </ul>
       </div>
 
-      <div className='absolute py-1 px-1  left-0 md:sticky'>
+      <div className='absolute py-1 px-1 bottom-2 left-0 md:sticky'>
         <User />
+        <p className='opacity-50 ml-1.5'>Visitante</p>
       </div>
     </header>
   )
